@@ -1,0 +1,154 @@
+.user{
+    color:white;
+    background-color:rgb(13, 9, 9,0.85) ;
+    width:200px;
+    
+    position:absolute;
+    border: 1px solid white;
+    padding: 10px;
+    top:40px;
+    right:0px;
+
+  }
+  .user h3{
+    margin:0px
+  }
+  .user p{
+    margin:0px;
+    gap:10px;
+    padding: 5px;
+  }
+  .user button{
+    margin: 0px;
+    background-color: black;
+    color:white;
+    padding:10px 20px;
+    border-color: white;
+    font-size: 15px;
+  }
+  .user h5{
+    margin:0px;
+  }
+  /* .user {
+    text-align: center;
+  } */
+  
+  .signup-form-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: gray
+    
+
+  }
+  .create-account-form{
+    width:400px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: gray
+    
+  }
+  
+  .signup-form {
+    max-width: 450px;
+    margin: 0 auto;
+    
+      position: relative;
+      padding: 20px;
+    }
+    
+    .close-icon {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+    }
+    
+    
+  
+  
+    
+    .close-icon {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+    }
+    
+  
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  #form-input input{
+    width:90%;
+    padding: 15px 20px;
+    margin: 10px;
+    background-color: rgba(128, 128, 128, 0.177);
+    color:white;
+   
+    border:1px solid black
+   
+   
+  }
+    #signup-btn{
+    width:90%;
+    background-color: red;
+    color:white;
+    border:none;
+    outline: none;
+    padding: 15px 20px ;
+    margin:10px;
+
+  }
+  #three-btn{
+    display: inline-block;
+    justify-content: space-between;
+ 
+
+  }
+  #btn1{
+    background-color: rgb(10, 10, 244);
+    border:none;
+    outline: none;
+    padding: 15px 20px;
+    margin: 20px;
+   
+  }
+  #btn2{
+    background-color: orangered;
+    border:none;
+    outline: none;
+    padding: 15px 20px;
+    margin: 20px;
+  
+   
+  }
+  #btn3{
+    background-color: skyblue;
+    border:none;
+    outline: none;
+    padding: 15px 20px;
+    margin: 20px;
+   
+  }
+  #login-input input{
+    width:90%;
+    padding: 10px 20px;
+    margin:10px
+  }

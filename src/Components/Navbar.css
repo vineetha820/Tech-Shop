@@ -1,0 +1,40 @@
+
+nav{
+    position: sticky;
+    top: 0px;
+    background-color:black ;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-content: center;
+    align-items: center;
+    
+}
+ nav ul{
+    display: flex;
+    gap: 40px;
+    margin-right: 10px;
+    
+
+}
+ nav ul li{
+    list-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.cart_count{
+    position:absolute;
+    top: 0px;
+    right: 50px;
+    height:20px;
+    width: 15px;
+    background-color: red;
+   border-radius: 12px;
+    color: white;
+    display: block;
+    text-align: center;
+
+}

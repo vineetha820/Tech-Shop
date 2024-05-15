@@ -1,0 +1,110 @@
+.container{
+    padding: 10px;
+    border: 1px solid white;
+    display: flex;
+   width: 300px;
+   height: fit-content;
+   margin: 10px;
+    
+    text-align: start;
+}
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: black;
+  justify-content: space-evenly;
+    
+}
+.container .star{
+    color: red;
+    font-size: 15px;
+  }
+  .container button{
+    display: block;
+    background-color: red;
+    padding: 10px 20px ;
+    cursor: pointer;
+    border: none;
+    border-radius: 0px;
+    text-align: center;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+
+  }
+  .container img{
+    width: 100%;
+    height: 200px;
+ margin-right: 90px;
+  }
+  .container .title{
+    color: white;
+    font-size: 25px;
+    margin: 5px 0;
+    
+  }
+  .container .info{
+    color: white;
+    margin: 15px 0;
+  }
+.Fprice{
+    font-size: 30px;
+    color: white;
+    margin: 5px 0px;
+}
+.Oprice{
+    color: grey;
+}
+.categories button {
+  display: block;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.categories{
+  display: flex;
+  justify-content: space-around;
+}
+.categories button.active {
+  background-color:red;
+  color: white;
+}
+.product-page{
+  display: flex;
+}
+.Features{
+
+  color: white;
+  padding: 30px;
+}
+.Features h3{
+  font-size: 25px;
+  margin: 15px 0px;
+}
+.Features form{
+  font-size: large;
+  
+}
+.Features form input{
+  padding: 10px;
+ 
+}
+.Features form label{
+  color: grey;
+}
+.Features p{
+  cursor: pointer;
+  color: gray;
+}.clear-all-btn{
+  color: white;
+  background-color: red;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+

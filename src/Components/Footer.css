@@ -1,0 +1,55 @@
+
+
+  
+.footer-section{
+    display:flex;
+    justify-content: space-around;
+    text-align: start;
+    color:white
+}
+ .section-1 button{
+ background-color: red;
+ color:white;
+ border:none;
+ outline: none;
+ padding: 10px 20px;
+ border-radius: 5px;
+ }
+.section-1 .text{
+    width: 250px;
+} 
+.section-1 input{
+    padding: 10px 20px;
+    width:80%;
+    font-size: 20px;
+    color:white;
+    background-color: black;
+
+}
+#name{
+    color:white
+}
+.section-5{
+    display: flex;
+   
+   
+    justify-content: space-between;
+}
+.footer_icons{
+    color:white;
+    margin: 20px;
+    display: flex;
+    gap:30px;
+    font-size: 30px;
+    
+
+}
+.footer-container{
+    background-color: rgba(0, 5, 2, 0.908);
+}
+.footer_icons .scroll-to-top{
+    background-color: red;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
